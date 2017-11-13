@@ -21,7 +21,7 @@ export default class App extends Component<{}> {
 
   renderByDevice() {
     let url = {
-      uri: 'https://dev.zeneducate.com/'
+      uri: 'http://localhost:5000/'
     }
     if (Platform.OS === 'ios') {
       return (
